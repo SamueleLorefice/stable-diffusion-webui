@@ -6,7 +6,7 @@
 [Environment]::SetEnvironmentVariable("ACCELERATE", "True")
 
 # Commandline arguments for webui.py, for example: [Environment]::SetEnvironmentVariable("COMMANDLINE_ARGS", "--medvram --opt-split-attention")
-[Environment]::SetEnvironmentVariable("COMMANDLINE_ARGS", "--skip-install --xformers --listen --enable-insecure-extension-access --opt-sub-quad-attention --opt-channelslast --no-half-vae")
+[Environment]::SetEnvironmentVariable("COMMANDLINE_ARGS", "--skip-install --gradio-queue --listen --api --enable-insecure-extension-access --opt-sdp-attention --opt-sub-quad-attention --opt-channelslast --no-half-vae")
 #--skip-install --xformers 
 #--api --listen --gradio-auth REDCODE:red41gen
 #--share --gradio-auth REDCODE:red41gen
