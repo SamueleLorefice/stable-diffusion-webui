@@ -7,9 +7,6 @@
 
 # Commandline arguments for webui.py, for example: [Environment]::SetEnvironmentVariable("COMMANDLINE_ARGS", "--medvram --opt-split-attention")
 [Environment]::SetEnvironmentVariable("COMMANDLINE_ARGS", "--skip-install --gradio-queue --listen --api --enable-insecure-extension-access --opt-sdp-attention --opt-sub-quad-attention --opt-channelslast --no-half-vae")
-#--skip-install --xformers 
-#--api --listen --gradio-auth REDCODE:red41gen
-#--share --gradio-auth REDCODE:red41gen
 
 # script to launch to start the app
 # [Environment]::SetEnvironmentVariable("LAUNCH_SCRIPT", "launch.py")
